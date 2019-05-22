@@ -1,0 +1,17 @@
+Notes of reading paper SRDGAN
+1. Paper's main contributions
+  an end-to-end framework , including the  High-to-Low(H2L) GAN and  Low-to-High(H2L) GAN
+2. Main problem of super resolution 
+  (1) the mismatch problem of traing LR images and the captured LR image
+      ( H2L GAN is used to lear the distribution of real LR images and generate the realistic HR|LR pairs for the L2H GAN )
+  (2) the blind distortion during super resolution
+      (L2H GAN takes the output HR|LR pairs as input and follow the network architecture of ESRGAN for super resolution )
+3. Details of the paper
+  (1) network architecture
+  (2) H2L network and traning procedure
+  (3) L2H network and traning procedure
+  (4) Losses and theirs effects
+    
+
+4. Experiments and comparasion
+  (1)
